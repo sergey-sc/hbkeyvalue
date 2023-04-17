@@ -1,0 +1,29 @@
+{
+    "name": "homebridge-keyvalue-server",
+    "version": "1.0.0",
+    "description": "Homebridge plugin for storing key-value pairs through an API server with a SQLite database",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint ."
+    },
+    "keywords": [
+      "homebridge",
+      "key-value",
+      "server",
+      "sqlite"
+    ],
+    "author": "sergey-sc",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "homebridge": "^1.3.4",
+      "sqlite3": "^5.0.2"
+    },
+    "devDependencies": {
+      "eslint": "^7.30.0",
+      "eslint-config-airbnb-base": "^14.2.1",
+      "eslint-plugin-import": "^2.23.4"
+    }
+  }
